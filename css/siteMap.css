@@ -1,0 +1,60 @@
+body{
+    background-color: #e8f5e9;
+}
+
+.hero {
+    background: linear-gradient(135deg, #3ecf63, #3498db);
+    color: white;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.svg-container {
+    flex-grow: 1;
+    overflow: visible; /* Prevents separate scrolling for SVG */
+    display: flex;
+    padding-top: 20px;
+    justify-content: center;
+}
+
+.svg {
+    width: 100%;
+    height: auto;
+    min-width: 1440px;
+}
+
+.rect {
+    fill: rgba(252, 252, 252, 0.759);
+    stroke: #0203045e;
+    stroke-width: 2px;
+    transition: fill 0.3s ease;
+}
+
+.rect:hover {
+    fill: #8a9a9f4e;
+    cursor: pointer;
+    border-color: #133e87;
+    border-width: 3px;
+}
+
+.sword{
+    font-size: 11.8px;
+
+    pointer-events: none;
+    fill: rgb(0, 0, 0);
+}
+
+.word {
+    font-size: 15px;
+    font-weight: bold;
+    pointer-events: none;
+    fill: rgb(0, 0, 0);
+
+}
+
+
